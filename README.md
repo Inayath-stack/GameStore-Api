@@ -2,7 +2,7 @@
 
 A secure, versioned RESTful API built with ASP.NET Core Web API for managing a game catalog.
 
-## 🚀 Features
+ Features
 
 - RESTful API with API Versioning (v1 & v2)
 - JWT-based Authentication
@@ -19,7 +19,7 @@ A secure, versioned RESTful API built with ASP.NET Core Web API for managing a g
 - Unit and Integration Testing
 - Docker containerization
 
-## 🛠️ Tech Stack
+ Tech Stack
 
 - C#
 - ASP.NET Core Web API
@@ -34,7 +34,7 @@ A secure, versioned RESTful API built with ASP.NET Core Web API for managing a g
 - Docker
 - Swagger / OpenAPI
 
-## 🔐 Authentication & Authorization
+ Authentication & Authorization
 
 The API uses JWT Bearer Authentication to secure protected endpoints.
 
@@ -47,12 +47,12 @@ It supports:
 - Refresh token revocation
 - Role-based authorization
 
-### Roles
+ Roles
 
 - **Admin** – Can create and delete games
 - **User** – Can access authorized game catalog operations
 
-## 🧪 Testing
+ Testing
 
 The project includes unit and integration tests using:
 
@@ -63,17 +63,17 @@ The project includes unit and integration tests using:
 
 Tests cover authentication, authorization, repositories, services, and API behavior.
 
-## 📚 API Documentation
+ API Documentation
 
 Swagger/OpenAPI is integrated for exploring and testing the API endpoints.
 
 When the application is running, Swagger can be accessed through the configured Swagger URL.
 
-## 🐳 Docker
+ Docker
 
 The API includes a multi-stage Dockerfile for building and running the application in a consistent containerized environment.
 
-## 🏗️ Architecture
+ Architecture
 
 The project follows a layered architecture with separation of responsibilities:
 
