@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameStore.Api</name>
+    </assembly>
+    <members>
+        <member name="T:GameStore.Api.Migrations.AddUsersTable">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddUsersTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddUsersTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddUsersTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GameStore.Api.Migrations.AddRefreshTokens">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddRefreshTokens.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddRefreshTokens.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GameStore.Api.Migrations.AddRefreshTokens.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthController.Login(GameStore.Api.Dtos.LoginDto)">
+            <summary>
+            Authenticates a user and returns an access token and refresh token.
+            </summary>
+            <param name="loginDto">The user's email and password</param>
+            <returns>Returns the generated access token and response token</returns>
+            <response code="200">Login was Successful</response>
+            <response code="401">Invalid email or password</response>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>

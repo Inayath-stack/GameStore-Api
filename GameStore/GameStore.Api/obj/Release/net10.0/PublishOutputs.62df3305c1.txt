@@ -1,0 +1,7 @@
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/GameStore.Api
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/appsettings.Development.json
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/appsettings.json
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/GameStore.Api.dll
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/GameStore.Api.deps.json
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/GameStore.Api.runtimeconfig.json
+/Users/mohammedinayath/new app/GameStore/GameStore.Api/bin/Release/net10.0/publish/GameStore.Api.pdb
